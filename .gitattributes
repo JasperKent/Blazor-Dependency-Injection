@@ -62,9 +62,6 @@
 #*.rtf   diff=astextplain
 #*.RTF   diff=astextplain
 ###############################################################################
-# make it list as JavaScript not C#
+# make it list as C# not HTML
 ###############################################################################
-* linguist-vendored
-*.html linguist-detectable=false
-*.css linguist-detectable=false
-*.cs linguist-detectable=true
+ *.* linguist-language=C#
