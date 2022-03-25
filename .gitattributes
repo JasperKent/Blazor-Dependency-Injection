@@ -64,5 +64,7 @@
 ###############################################################################
 # make it list as JavaScript not C#
 ###############################################################################
+* linguist-vendored
 *.html linguist-detectable=false
+*.css linguist-detectable=false
 *.cs linguist-detectable=true
